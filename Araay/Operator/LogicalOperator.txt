@@ -1,0 +1,25 @@
+
+// Logical operator:
+// 1.&& --> and
+//To check more than two conditions:
+//If any one condition is false final result is false
+T & T --> T
+T & F --> F
+F & T --> F
+F & F -->F
+// ===================================
+2.|| --> OR
+//If any one condition is true final result is true
+T & T --> T
+T & F --> T
+F & T --> T
+F & F -->F
+
+=============================================
+var a = ‘hello’ || ‘’;             // a = ‘hello’
+var b = ‘’ || [];                  // b = []
+var c = ‘’ || undefined;           // c = undefined
+var d = 1 || 5;                    // d = 1
+var e = 0 || {};                   // e = {}
+var f = 0 || ‘’ || 5;              // f = 5
+var g = ‘’ || ‘yay’ || ‘boo’;
